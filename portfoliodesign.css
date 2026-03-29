@@ -1,0 +1,328 @@
+/* Body design*/
+body {
+    body {
+        background: #0d0b1200;
+        color: #E2E8F0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+/* Navigation bar design*/
+.nav-bar {
+    background: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 0px 5px 2px rgba(102, 40, 109, 0.2);
+}
+
+/* Designing display, alignment and text for links in navigation bar i.e home, about, projects, contact*/
+.link-container {
+    display: flex;
+    gap: 10px
+}
+
+.link-container a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Segoe UI'
+        text-transform capitalize;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.link-container a:hover {
+    color: white;
+    background: black;
+
+
+}
+
+/* Designing profile picture in navigation bar*/
+.my-profile-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid blueviolet
+}
+
+/* Hero section design*/
+.hero-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 80px;
+}
+
+/* Main picture in hero section*/
+.my-main-picture {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 25%;
+    border: 5px solid #8a5cff;
+}
+
+.right-container h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+/* Tagline design*/
+.right-container h3 {
+    margin-bottom: 15px;
+}
+
+/* Paragraph in hero section*/
+.right-container p {
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    min-height: 80vh;
+    padding: 40px;
+}
+
+.right-container {
+    max-width: 650px;
+}
+
+body {
+    background-color: #f7f7fb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bio {
+    max-width: 400px;
+}
+
+.skills {
+    max-width: 400px;
+    text-align: left;
+}
+
+
+.bar {
+    background: #1E293B;
+    height: 10px;
+    margin-bottom: 15px;
+}
+
+.fill {
+    height: 10px;
+    background: #22C55E;
+}
+
+.html {
+    width: 90%;
+}
+
+.css {
+    width: 85%;
+}
+
+.js {
+    width: 65%;
+}
+
+.network {
+    width: 70%;
+}
+
+.linux {
+    width: 60%;
+}
+
+
+.timeline {
+    padding: 40px;
+    text-align: center;
+}
+
+.timeline-item {
+    margin: 20px 0;
+}
+
+
+.projects {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+
+@media(min-width:768px) {
+    .project-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media(min-width:1024px) {
+    .project-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.card {
+    background: #1E293B;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card a {
+    display: inline-block;
+    margin: 10px;
+    color: #22C55E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+/* Contact us form*/
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    gap: 15px;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Call to action button*/
+.call-to-action-btn {
+    display: inline-block;
+    padding: 14px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: blueviolet;
+    border-radius: 30px;
+    transition: 0.3s;
+    box-shadow: 0 0 10px blueviolet;
+}
+
+/*Send message button*/
+.send-message-btn:hover {
+    background: white;
+    color: blueviolet;
+    box-shadow: 0 0 20px blueviolet, 0 0 40px blueviolet;
+    transform: translateY(-3px);
+}
+
+/* Social media platforms section design*/
+.socials {
+    margin-top: 30px;
+}
+
+.socials a {
+    display: block;
+    margin: 5px;
+    color: #0EA5E9;
+    text-decoration: none;
+}
+
+button {
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+
+
+    background: linear-gradient(45deg, blueviolet, #6d28d9);
+
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+
+    transition: 0.3s;
+}
+
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+}
+
+
+button:active {
+    transform: scale(0.98);
+}
+
+.socials a {
+    display: block;
+    margin: 10px;
+    color: Black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.socials i {
+    margin-right: 10px;
+    color: blueviolet;
+}
