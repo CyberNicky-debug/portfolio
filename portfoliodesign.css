@@ -10,6 +10,16 @@ body {
 
 }
 
+@media(max-width: 600px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+}
 
 
 
